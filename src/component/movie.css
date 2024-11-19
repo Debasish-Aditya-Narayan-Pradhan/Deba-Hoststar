@@ -1,0 +1,78 @@
+.movie-con
+{
+    height: 380px;
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+.movie-image{
+    height: 300px;
+    width: 280px;
+    background-size: cover;
+    overflow: hidden;
+}
+.movie-image img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.movie-name
+{
+    text-align: center;
+}
+.movie-p
+{
+    color: white;
+    font-size: 15px;
+    margin-top: 0%;
+}
+.mv-btn
+{
+    margin-top: 0%;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+    cursor: pointer;
+}
+
+.srch-div
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.srch-div input
+{
+    padding: 25px;
+    width: 80%;
+    border-radius: 50px;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.3s ease;
+    border: none;
+}
+.srch-div input:focus
+{
+  border: none;
+  outline: none;
+}
+.srch-div input::placeholder
+{
+    font-size: 20px;
+}
+.search-icon
+{
+    font-size: 30px;
+    cursor: pointer;
+}
+.srch-ic
+{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
